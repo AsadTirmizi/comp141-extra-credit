@@ -1,0 +1,5 @@
+  PID TTY          TIME CMD
+   15 tty1     00:00:02 bash
+  732 tty1     00:00:00 bash
+  741 tty1     00:00:00 ps
+  742 tty1     00:00:00 head

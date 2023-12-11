@@ -1,0 +1,5 @@
+rootfs on / type wslfs (rw,noatime)
+none on /dev type tmpfs (rw,noatime,mode=755)
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,noatime)
+proc on /proc type proc (rw,nosuid,nodev,noexec,noatime)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,noatime,gid=5,mode=620)
